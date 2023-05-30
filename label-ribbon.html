@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>標籤色帶資訊</title>
+    <style type="text/css">
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}    
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+nav {
+  background-color: #b22222;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+nav ul li {
+  padding: 0.5rem 5rem;
+  font-size: 24px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.03 ease;
+}
+nav ul li a:hover {
+  text-decoration: none;
+  color: lightsalmon;
+}
+.active {
+  display: flex;
+  color: lightsalmon;
+  align-items: center;
+}
+main .container{
+    margin-top:2rem;
+}
+.col-8 table, td, tr
+{
+  border: 0.1px solid rgb(90, 90, 255);
+  border-collapse: collapse;
+  align-items: center;
+  margin-top: 100px;
+}
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+        <div class="top">
+          <div class="logo"><img src="./tactinklogo.jpg" /></div>
+          <nav>
+            <ul>
+              <li><a href="./index.html">首頁</a></li>
+              <li><a href="./inkcartridge.html">墨水匣</a></li>
+              <li><a href="./toner.html">碳粉匣</a></li>
+              <li><a href="#" class="active">標籤色帶</a></li>
+              <li><a href="./inkbottle.html">填充墨水</a></li>
+              <li><a href="">其他相關</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+
+<main>
+    <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <img src="./labeltape.jpg">
+            <h3>Brother標籤色帶</h3>
+          </div>
+          <div class="col-8">
+            <table>
+              <tr style="border: #b22222 1px solid; background-color: #b22222; color: white;">
+                <td style="width:20%" >型號</td>
+                <td style="width:20%" >顏色</td>
+                <td style="width:20%" >尺寸</td>
+                </tr>
+                <tr>
+                <td>TZe-111</td>
+                <td>透明底黑字</td>
+                <td>6mmx8M</td>
+                </tr>
+                <tr>
+                  <td>TZe-121</td>
+                  <td>白底黑字</td>
+                  <td>6mmx8M</td>
+                  </tr>
+                            </table>
+          </div>
+      </div>
+</main>
+</body>
+
+</html>
